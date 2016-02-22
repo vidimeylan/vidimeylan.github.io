@@ -96,6 +96,20 @@ aside {
 .navbar-default .navbar-header .navbar-brand:focus {
     color: #eb3812;
 }
+.navbar-brand {
+    padding: 5px !important;
+}
+.navbar-brand .avatar{
+    width: 35px;
+    border-radius: 20px;
+    float: left;
+}
+
+.navbar-brand span{
+    left: 5px;
+    position: relative;
+    top: 7px;
+}
 
 .navbar-default .nav > li>a,
 .navbar-default .nav>li>a:focus {
